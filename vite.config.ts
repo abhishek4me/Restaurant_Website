@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Restaurant_Website/', // This is the key fix for GitHub Pages
+  base: 'https://abhishek4me.github.io/Restaurant_Website/', // Full URL
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
