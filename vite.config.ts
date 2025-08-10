@@ -3,7 +3,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: 'https://abhishek4me.github.io/Restaurant_Website/', // Full URL
+  base: '/Restaurant_Website/', // Just the path, not full URL
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  },
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
