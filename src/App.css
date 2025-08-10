@@ -47,9 +47,7 @@ body {
 
 /* Hero Section - HIGH QUALITY LOCAL IMAGE */
 .hero-section {
-  background: url('/Restaurant_Website/start page.jpg');
-  /* OR better yet, use relative path */
-  background: url('./start page.jpg');
+  background: url('/Restaurant_Website/start%20page.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -59,6 +57,7 @@ body {
   position: relative;
   display: block;
 }
+
 
 
 
